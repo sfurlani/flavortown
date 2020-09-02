@@ -34,6 +34,7 @@
 		2E0F11172500207300B38FBA /* flavor.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = flavor.strings; sourceTree = "<group>"; };
 		2E0F11192500209700B38FBA /* GoogleServices.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleServices.plist; sourceTree = "<group>"; };
 		2E0F111B250026C800B38FBA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2E0F111D250030DD00B38FBA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				2E0F11152500205C00B38FBA /* Images.xcassets */,
 				2E0F11172500207300B38FBA /* flavor.strings */,
 				2E0F11192500209700B38FBA /* GoogleServices.plist */,
+				2E0F111D250030DD00B38FBA /* Config.xcconfig */,
 			);
 			path = flavor;
 			sourceTree = "<group>";
@@ -196,6 +198,7 @@
 /* Begin XCBuildConfiguration section */
 		2E0F110B25001E4900B38FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F111D250030DD00B38FBA /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -256,6 +259,7 @@
 		};
 		2E0F110C25001E4900B38FBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F111D250030DD00B38FBA /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -310,6 +314,7 @@
 		};
 		2E0F110E25001E4900B38FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F111D250030DD00B38FBA /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.upside.Flavor-Town";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FT_PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -328,6 +333,7 @@
 		};
 		2E0F110F25001E4900B38FBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F111D250030DD00B38FBA /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -337,7 +343,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.upside.Flavor-Town";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FT_PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
