@@ -15,9 +15,9 @@
 		2E0F110925001E4900B38FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F110725001E4900B38FBA /* LaunchScreen.storyboard */; };
 		2E0F11142500205100B38FBA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11132500205100B38FBA /* Colors.xcassets */; };
 		2E0F11162500205C00B38FBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11152500205C00B38FBA /* Images.xcassets */; };
-		2E0F11182500207300B38FBA /* flavor.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11172500207300B38FBA /* flavor.strings */; };
 		2E0F111A2500209700B38FBA /* GoogleServices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11192500209700B38FBA /* GoogleServices.plist */; };
 		2E0F111C250026C800B38FBA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F111B250026C800B38FBA /* Theme.swift */; };
+		2E0F11202500361700B38FBA /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F111F2500361700B38FBA /* en.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		2E0F110A25001E4900B38FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0F11132500205100B38FBA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		2E0F11152500205C00B38FBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2E0F11172500207300B38FBA /* flavor.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = flavor.strings; sourceTree = "<group>"; };
 		2E0F11192500209700B38FBA /* GoogleServices.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleServices.plist; sourceTree = "<group>"; };
 		2E0F111B250026C800B38FBA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		2E0F111D250030DD00B38FBA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		2E0F111F2500361700B38FBA /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		2E0F111225001F6A00B38FBA /* flavor */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F111F2500361700B38FBA /* en.lproj */,
 				2E0F11132500205100B38FBA /* Colors.xcassets */,
 				2E0F11152500205C00B38FBA /* Images.xcassets */,
-				2E0F11172500207300B38FBA /* flavor.strings */,
 				2E0F11192500209700B38FBA /* GoogleServices.plist */,
 				2E0F111D250030DD00B38FBA /* Config.xcconfig */,
 			);
@@ -150,7 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0F11182500207300B38FBA /* flavor.strings in Resources */,
+				2E0F11202500361700B38FBA /* en.lproj in Resources */,
 				2E0F110925001E4900B38FBA /* LaunchScreen.storyboard in Resources */,
 				2E0F111A2500209700B38FBA /* GoogleServices.plist in Resources */,
 				2E0F11162500205C00B38FBA /* Images.xcassets in Resources */,
