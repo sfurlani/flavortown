@@ -13,6 +13,10 @@
 		2E0F110425001E4400B38FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F110225001E4400B38FBA /* Main.storyboard */; };
 		2E0F110625001E4900B38FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F110525001E4900B38FBA /* Assets.xcassets */; };
 		2E0F110925001E4900B38FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F110725001E4900B38FBA /* LaunchScreen.storyboard */; };
+		2E0F11142500205100B38FBA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11132500205100B38FBA /* Colors.xcassets */; };
+		2E0F11162500205C00B38FBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11152500205C00B38FBA /* Images.xcassets */; };
+		2E0F11182500207300B38FBA /* flavor.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11172500207300B38FBA /* flavor.strings */; };
+		2E0F111A2500209700B38FBA /* GoogleServices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F11192500209700B38FBA /* GoogleServices.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2E0F110525001E4900B38FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0F110825001E4900B38FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0F110A25001E4900B38FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0F11132500205100B38FBA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2E0F11152500205C00B38FBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E0F11172500207300B38FBA /* flavor.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = flavor.strings; sourceTree = "<group>"; };
+		2E0F11192500209700B38FBA /* GoogleServices.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleServices.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		2E0F10F025001E4400B38FBA = {
 			isa = PBXGroup;
 			children = (
+				2E0F111225001F6A00B38FBA /* flavor */,
 				2E0F10FB25001E4400B38FBA /* Flavor Town */,
 				2E0F10FA25001E4400B38FBA /* Products */,
 			);
@@ -65,6 +74,17 @@
 				2E0F110A25001E4900B38FBA /* Info.plist */,
 			);
 			path = "Flavor Town";
+			sourceTree = "<group>";
+		};
+		2E0F111225001F6A00B38FBA /* flavor */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F11132500205100B38FBA /* Colors.xcassets */,
+				2E0F11152500205C00B38FBA /* Images.xcassets */,
+				2E0F11172500207300B38FBA /* flavor.strings */,
+				2E0F11192500209700B38FBA /* GoogleServices.plist */,
+			);
+			path = flavor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0F11182500207300B38FBA /* flavor.strings in Resources */,
 				2E0F110925001E4900B38FBA /* LaunchScreen.storyboard in Resources */,
+				2E0F111A2500209700B38FBA /* GoogleServices.plist in Resources */,
+				2E0F11162500205C00B38FBA /* Images.xcassets in Resources */,
+				2E0F11142500205100B38FBA /* Colors.xcassets in Resources */,
 				2E0F110625001E4900B38FBA /* Assets.xcassets in Resources */,
 				2E0F110425001E4400B38FBA /* Main.storyboard in Resources */,
 			);
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upside.Flavor-Town";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upside.Flavor-Town";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
