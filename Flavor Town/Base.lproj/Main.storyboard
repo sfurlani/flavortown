@@ -50,6 +50,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomBox" destination="Ryn-oJ-zUM" id="Jmy-2j-Zwc"/>
+                        <outlet property="label" destination="RYI-mg-hHc" id="H3e-SZ-zdA"/>
+                        <outlet property="topBox" destination="Av9-FX-YtV" id="b7e-sM-EbF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +63,7 @@
     </scenes>
     <resources>
         <namedColor name="500">
-            <color red="0.34799998998641968" green="0.35100001096725464" blue="0.71799999475479126" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.34509803921568627" green="0.34901960784313724" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Black">
             <color red="0.016000000759959221" green="0.12700000405311584" blue="0.15999999642372131" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

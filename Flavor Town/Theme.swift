@@ -27,9 +27,9 @@ struct Shades {
 
     init(prefix: String) {
 
-        l400 = UIColor(named: "\(prefix)/400")
-        l500 = UIColor(named: "\(prefix)/500")
-        l600 = UIColor(named: "\(prefix)/600")
+        l400 = UIColor(named: "\(prefix)400")
+        l500 = UIColor(named: "\(prefix)500")
+        l600 = UIColor(named: "\(prefix)600")
     }
 
 }
