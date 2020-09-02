@@ -39,8 +39,8 @@
                                     <constraint firstAttribute="height" constant="128" id="d3y-uD-cta"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fieri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYI-mg-hHc">
-                                <rect key="frame" x="160.5" y="425" width="93.5" height="56.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flavor Town" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYI-mg-hHc">
+                                <rect key="frame" x="78" y="424.5" width="258" height="57"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="47"/>
                                 <color key="textColor" name="Text"/>
                                 <nil key="highlightedColor"/>
